@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}
+ROOTLY - Home
+{% endblock %}
+
+{% block content %}
+
+<div class="welcome">
+    <h2 style="color:#00ff88;">Welcome to CTF Arena!</h2>
+
+    <p style="color:#b0b0b0; margin-top:10px;">
+        Test your hacking skills with our collection of Capture The Flag challenges.
+        From cryptography to web exploits, dive in and start solving!
+    </p>
+
+    <a href="{% url 'challenges:challenges' %}" 
+       style="display:inline-block;margin-top:20px;padding:10px 20px;
+       background:#00ff88;color:#1a1a1a;text-decoration:none;border-radius:5px;">
+       Explore Challenges
+    </a>
+
+</div>
+
+{% endblock %}

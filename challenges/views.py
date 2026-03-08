@@ -1,3 +1,8 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+import datetime
+
+
+def challenges_info(request):
+    return HttpResponse("Таски")

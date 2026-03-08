@@ -29,6 +29,7 @@
 Реализовать защиту от базовыз веб-уязвимостей
 
 ##### Архитектура приложений Django
+```
 rootly/
 │
 ├── main/
@@ -36,3 +37,4 @@ rootly/
 ├── challenges/
 ├── submissions/
 ├── scoreboard/
+```
